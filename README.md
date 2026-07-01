@@ -74,6 +74,15 @@
 
 ## Quickstart
 
+### 0. Dependancies
+
+tested with 
+  - Nvidia-driver 580 
+  - Cuda-13
+  - GPU: NVIDIA GeForce RTX 3070 Ti Laptop GPU  8192MiB Memory.
+
+Answer Generation finished about 48.91 seconds.
+
 ### 1. Install package via venv
 
 First, prepare venv
