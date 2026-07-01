@@ -74,12 +74,27 @@
 
 ## Quickstart
 
-### 1. Install package
+### 1. Install package via venv
 
-First, install the airllm pip package.
+First, prepare venv
+
+```bash
+git clone https://github.com/jinshengye-git/airllm.git
+cd airllm && python3 -m venv .
+source bin/activate
+```
+
+
+Then, install the airllm pip package.
 
 ```bash
 pip install airllm
+```
+
+Run test.py
+
+```bash
+python test.py
 ```
 
 ### 2. Inference
